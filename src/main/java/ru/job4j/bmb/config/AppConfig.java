@@ -9,9 +9,6 @@ public class AppConfig {
     @Value("${app.name}")
     private String appName;
 
-    @Value("${app.token}")
-    private String appToken;
-
     @Value("${app.version}")
     private String appVersion;
 
@@ -23,7 +20,6 @@ public class AppConfig {
 
     public void printConfig() {
         System.out.println("App Name: " + appName);
-        System.out.println("App Token: " + appToken);
         System.out.println("App Version: " + appVersion);
         System.out.println("App URL: " + appUrl);
         System.out.println("Timeout: " + timeout);

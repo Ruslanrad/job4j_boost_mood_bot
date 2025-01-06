@@ -12,7 +12,6 @@ import ru.job4j.bmb.services.TgRemoteService;
 
 @SpringBootApplication
 public class Main {
-
     public static void main(String[] args) {
         SpringApplication.run(Main.class, args);
     }
